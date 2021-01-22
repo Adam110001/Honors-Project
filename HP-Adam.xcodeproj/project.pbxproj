@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F14A68225BB068900C81BFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A68125BB068900C81BFD /* AppDelegate.swift */; };
+		3F14A68425BB068900C81BFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A68325BB068900C81BFD /* SceneDelegate.swift */; };
+		3F14A68625BB068900C81BFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A68525BB068900C81BFD /* ViewController.swift */; };
+		3F14A68925BB068900C81BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F14A68725BB068900C81BFD /* Main.storyboard */; };
+		3F14A68B25BB069400C81BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F14A68A25BB069400C81BFD /* Assets.xcassets */; };
+		3F14A68E25BB069400C81BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F14A68C25BB069400C81BFD /* LaunchScreen.storyboard */; };
+		3F14A69925BB069400C81BFD /* HP_AdamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A69825BB069400C81BFD /* HP_AdamTests.swift */; };
+		3F14A6A425BB069500C81BFD /* HP_AdamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A6A325BB069500C81BFD /* HP_AdamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F14A69525BB069400C81BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F14A67625BB068900C81BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F14A67D25BB068900C81BFD;
+			remoteInfo = "HP-Adam";
+		};
+		3F14A6A025BB069400C81BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F14A67625BB068900C81BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F14A67D25BB068900C81BFD;
+			remoteInfo = "HP-Adam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F14A67E25BB068900C81BFD /* HP-Adam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HP-Adam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F14A68125BB068900C81BFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F14A68325BB068900C81BFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F14A68525BB068900C81BFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F14A68825BB068900C81BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F14A68A25BB069400C81BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F14A68D25BB069400C81BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F14A68F25BB069400C81BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F14A69425BB069400C81BFD /* HP-AdamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HP-AdamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F14A69825BB069400C81BFD /* HP_AdamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HP_AdamTests.swift; sourceTree = "<group>"; };
+		3F14A69A25BB069400C81BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F14A69F25BB069400C81BFD /* HP-AdamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HP-AdamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F14A6A325BB069500C81BFD /* HP_AdamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HP_AdamUITests.swift; sourceTree = "<group>"; };
+		3F14A6A525BB069500C81BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F14A67B25BB068900C81BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F14A69125BB069400C81BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F14A69C25BB069400C81BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F14A67525BB068900C81BFD = {
+			isa = PBXGroup;
+			children = (
+				3F14A68025BB068900C81BFD /* HP-Adam */,
+				3F14A69725BB069400C81BFD /* HP-AdamTests */,
+				3F14A6A225BB069400C81BFD /* HP-AdamUITests */,
+				3F14A67F25BB068900C81BFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F14A67F25BB068900C81BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F14A67E25BB068900C81BFD /* HP-Adam.app */,
+				3F14A69425BB069400C81BFD /* HP-AdamTests.xctest */,
+				3F14A69F25BB069400C81BFD /* HP-AdamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F14A68025BB068900C81BFD /* HP-Adam */ = {
+			isa = PBXGroup;
+			children = (
+				3F14A68125BB068900C81BFD /* AppDelegate.swift */,
+				3F14A68325BB068900C81BFD /* SceneDelegate.swift */,
+				3F14A68525BB068900C81BFD /* ViewController.swift */,
+				3F14A68725BB068900C81BFD /* Main.storyboard */,
+				3F14A68A25BB069400C81BFD /* Assets.xcassets */,
+				3F14A68C25BB069400C81BFD /* LaunchScreen.storyboard */,
+				3F14A68F25BB069400C81BFD /* Info.plist */,
+			);
+			path = "HP-Adam";
+			sourceTree = "<group>";
+		};
+		3F14A69725BB069400C81BFD /* HP-AdamTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F14A69825BB069400C81BFD /* HP_AdamTests.swift */,
+				3F14A69A25BB069400C81BFD /* Info.plist */,
+			);
+			path = "HP-AdamTests";
+			sourceTree = "<group>";
+		};
+		3F14A6A225BB069400C81BFD /* HP-AdamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F14A6A325BB069500C81BFD /* HP_AdamUITests.swift */,
+				3F14A6A525BB069500C81BFD /* Info.plist */,
+			);
+			path = "HP-AdamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F14A67D25BB068900C81BFD /* HP-Adam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F14A6A825BB069500C81BFD /* Build configuration list for PBXNativeTarget "HP-Adam" */;
+			buildPhases = (
+				3F14A67A25BB068900C81BFD /* Sources */,
+				3F14A67B25BB068900C81BFD /* Frameworks */,
+				3F14A67C25BB068900C81BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HP-Adam";
+			productName = "HP-Adam";
+			productReference = 3F14A67E25BB068900C81BFD /* HP-Adam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F14A69325BB069400C81BFD /* HP-AdamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F14A6AB25BB069500C81BFD /* Build configuration list for PBXNativeTarget "HP-AdamTests" */;
+			buildPhases = (
+				3F14A69025BB069400C81BFD /* Sources */,
+				3F14A69125BB069400C81BFD /* Frameworks */,
+				3F14A69225BB069400C81BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F14A69625BB069400C81BFD /* PBXTargetDependency */,
+			);
+			name = "HP-AdamTests";
+			productName = "HP-AdamTests";
+			productReference = 3F14A69425BB069400C81BFD /* HP-AdamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F14A69E25BB069400C81BFD /* HP-AdamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F14A6AE25BB069500C81BFD /* Build configuration list for PBXNativeTarget "HP-AdamUITests" */;
+			buildPhases = (
+				3F14A69B25BB069400C81BFD /* Sources */,
+				3F14A69C25BB069400C81BFD /* Frameworks */,
+				3F14A69D25BB069400C81BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F14A6A125BB069400C81BFD /* PBXTargetDependency */,
+			);
+			name = "HP-AdamUITests";
+			productName = "HP-AdamUITests";
+			productReference = 3F14A69F25BB069400C81BFD /* HP-AdamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F14A67625BB068900C81BFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					3F14A67D25BB068900C81BFD = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					3F14A69325BB069400C81BFD = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3F14A67D25BB068900C81BFD;
+					};
+					3F14A69E25BB069400C81BFD = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3F14A67D25BB068900C81BFD;
+					};
+				};
+			};
+			buildConfigurationList = 3F14A67925BB068900C81BFD /* Build configuration list for PBXProject "HP-Adam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F14A67525BB068900C81BFD;
+			productRefGroup = 3F14A67F25BB068900C81BFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F14A67D25BB068900C81BFD /* HP-Adam */,
+				3F14A69325BB069400C81BFD /* HP-AdamTests */,
+				3F14A69E25BB069400C81BFD /* HP-AdamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F14A67C25BB068900C81BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F14A68E25BB069400C81BFD /* LaunchScreen.storyboard in Resources */,
+				3F14A68B25BB069400C81BFD /* Assets.xcassets in Resources */,
+				3F14A68925BB068900C81BFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F14A69225BB069400C81BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F14A69D25BB069400C81BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F14A67A25BB068900C81BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F14A68625BB068900C81BFD /* ViewController.swift in Sources */,
+				3F14A68225BB068900C81BFD /* AppDelegate.swift in Sources */,
+				3F14A68425BB068900C81BFD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F14A69025BB069400C81BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F14A69925BB069400C81BFD /* HP_AdamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F14A69B25BB069400C81BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F14A6A425BB069500C81BFD /* HP_AdamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F14A69625BB069400C81BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F14A67D25BB068900C81BFD /* HP-Adam */;
+			targetProxy = 3F14A69525BB069400C81BFD /* PBXContainerItemProxy */;
+		};
+		3F14A6A125BB069400C81BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F14A67D25BB068900C81BFD /* HP-Adam */;
+			targetProxy = 3F14A6A025BB069400C81BFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F14A68725BB068900C81BFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F14A68825BB068900C81BFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F14A68C25BB069400C81BFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F14A68D25BB069400C81BFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F14A6A625BB069500C81BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F14A6A725BB069500C81BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F14A6A925BB069500C81BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU3367P337;
+				INFOPLIST_FILE = "HP-Adam/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam.HP-Adam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F14A6AA25BB069500C81BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU3367P337;
+				INFOPLIST_FILE = "HP-Adam/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam.HP-Adam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F14A6AC25BB069500C81BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU3367P337;
+				INFOPLIST_FILE = "HP-AdamTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam.HP-AdamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HP-Adam.app/HP-Adam";
+			};
+			name = Debug;
+		};
+		3F14A6AD25BB069500C81BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU3367P337;
+				INFOPLIST_FILE = "HP-AdamTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam.HP-AdamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HP-Adam.app/HP-Adam";
+			};
+			name = Release;
+		};
+		3F14A6AF25BB069500C81BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU3367P337;
+				INFOPLIST_FILE = "HP-AdamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam.HP-AdamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HP-Adam";
+			};
+			name = Debug;
+		};
+		3F14A6B025BB069500C81BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NU3367P337;
+				INFOPLIST_FILE = "HP-AdamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adam.HP-AdamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HP-Adam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F14A67925BB068900C81BFD /* Build configuration list for PBXProject "HP-Adam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F14A6A625BB069500C81BFD /* Debug */,
+				3F14A6A725BB069500C81BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F14A6A825BB069500C81BFD /* Build configuration list for PBXNativeTarget "HP-Adam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F14A6A925BB069500C81BFD /* Debug */,
+				3F14A6AA25BB069500C81BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F14A6AB25BB069500C81BFD /* Build configuration list for PBXNativeTarget "HP-AdamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F14A6AC25BB069500C81BFD /* Debug */,
+				3F14A6AD25BB069500C81BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F14A6AE25BB069500C81BFD /* Build configuration list for PBXNativeTarget "HP-AdamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F14A6AF25BB069500C81BFD /* Debug */,
+				3F14A6B025BB069500C81BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F14A67625BB068900C81BFD /* Project object */;
+}
