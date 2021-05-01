@@ -1,0 +1,6 @@
+framework module Pods_HP_Adam_HP_AdamUITests {
+  umbrella header "Pods-HP-Adam-HP-AdamUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
