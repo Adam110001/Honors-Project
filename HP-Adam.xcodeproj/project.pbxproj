@@ -3,18 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D392E5630B6F248FBCDC606 /* Pods_HP_AdamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E70CAEEDCF7385F8D71002 /* Pods_HP_AdamTests.framework */; };
+		3F003971262EBDEB00249E64 /* InceptionV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3F003970262EBDEB00249E64 /* InceptionV3.mlmodel */; };
 		3F14A68225BB068900C81BFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A68125BB068900C81BFD /* AppDelegate.swift */; };
 		3F14A68425BB068900C81BFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A68325BB068900C81BFD /* SceneDelegate.swift */; };
-		3F14A68625BB068900C81BFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A68525BB068900C81BFD /* ViewController.swift */; };
 		3F14A68925BB068900C81BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F14A68725BB068900C81BFD /* Main.storyboard */; };
 		3F14A68B25BB069400C81BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F14A68A25BB069400C81BFD /* Assets.xcassets */; };
 		3F14A68E25BB069400C81BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F14A68C25BB069400C81BFD /* LaunchScreen.storyboard */; };
 		3F14A69925BB069400C81BFD /* HP_AdamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A69825BB069400C81BFD /* HP_AdamTests.swift */; };
 		3F14A6A425BB069500C81BFD /* HP_AdamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A6A325BB069500C81BFD /* HP_AdamUITests.swift */; };
+		3F14A6B525BB079500C81BFD /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A6B425BB079500C81BFD /* DescriptionViewController.swift */; };
+		3F14A6BA25BB07B900C81BFD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A6B925BB07B900C81BFD /* MainViewController.swift */; };
+		3F14A6BF25BB1A8100C81BFD /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A6BE25BB1A8000C81BFD /* UploadImageViewController.swift */; };
+		3F14A6C425BB1AA000C81BFD /* RealTimeCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F14A6C325BB1AA000C81BFD /* RealTimeCameraViewController.swift */; };
+		3F1685B12612770F00A3EE56 /* ImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1685B02612770E00A3EE56 /* ImagePropertyOrientation.swift */; };
+		3F84C3E8260A675D000F23F4 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84C3E7260A675D000F23F4 /* Storage.swift */; };
+		3F8BC8A6260E0BA500C19486 /* AnimalDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8BC8A5260E0BA500C19486 /* AnimalDescriptionViewController.swift */; };
+		3F8C78BD2614B166002BBFF3 /* NoLoginViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C78BB2614B166002BBFF3 /* NoLoginViewCell.swift */; };
+		3F8C78BE2614B166002BBFF3 /* NoLoginViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C78BC2614B166002BBFF3 /* NoLoginViewCell.xib */; };
+		3F8C78C3261529EA002BBFF3 /* KeyVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C78C2261529EA002BBFF3 /* KeyVariables.swift */; };
+		3F8C793E2619E69D002BBFF3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C793C2619E69D002BBFF3 /* CollectionViewCell.swift */; };
+		3F8C793F2619E69D002BBFF3 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C793D2619E69D002BBFF3 /* CollectionViewCell.xib */; };
+		3F8C79452619E80F002BBFF3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C79432619E80F002BBFF3 /* TableViewCell.swift */; };
+		3F8C79462619E80F002BBFF3 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C79442619E80F002BBFF3 /* TableViewCell.xib */; };
+		3F952C4B2608AB7F00F28D3A /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F952C4A2608AB7F00F28D3A /* DatabaseManager.swift */; };
+		3FB9771D2613A960001C0FF8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9771C2613A960001C0FF8 /* LoginViewController.swift */; };
+		3FB977222613A968001C0FF8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB977212613A968001C0FF8 /* ProfileViewController.swift */; };
+		3FC1C83A260662130076266B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1C839260662130076266B /* GoogleService-Info.plist */; };
+		3FCD6C35260797AE009ADCC8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD6C34260797AE009ADCC8 /* RegisterViewController.swift */; };
+		3FCD6C3A2607A276009ADCC8 /* SupportingViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD6C392607A276009ADCC8 /* SupportingViewCode.swift */; };
+		3FD0D68C260BDB28006384CC /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD0D68B260BDB28006384CC /* ProfileViewModel.swift */; };
+		4E6B10B6246383CA60501197 /* Pods_HP_Adam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F0B628CCA4DC9B70D5EC6E /* Pods_HP_Adam.framework */; };
+		B1000564F1FC50F714743A9B /* Pods_HP_Adam_HP_AdamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFB42801187D3CD8E007C94 /* Pods_HP_Adam_HP_AdamUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +59,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EB16D66459250DD8AB1E751 /* Pods-HP-Adam-HP-AdamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP-Adam-HP-AdamUITests.release.xcconfig"; path = "Target Support Files/Pods-HP-Adam-HP-AdamUITests/Pods-HP-Adam-HP-AdamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		20E70CAEEDCF7385F8D71002 /* Pods_HP_AdamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HP_AdamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F003970262EBDEB00249E64 /* InceptionV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = InceptionV3.mlmodel; path = ../../../../../InceptionV3.mlmodel; sourceTree = "<group>"; };
 		3F14A67E25BB068900C81BFD /* HP-Adam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HP-Adam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F14A68125BB068900C81BFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F14A68325BB068900C81BFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F14A68525BB068900C81BFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F14A68825BB068900C81BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F14A68A25BB069400C81BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F14A68D25BB069400C81BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +75,35 @@
 		3F14A69F25BB069400C81BFD /* HP-AdamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HP-AdamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F14A6A325BB069500C81BFD /* HP_AdamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HP_AdamUITests.swift; sourceTree = "<group>"; };
 		3F14A6A525BB069500C81BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F14A6B425BB079500C81BFD /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		3F14A6B925BB07B900C81BFD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3F14A6BE25BB1A8000C81BFD /* UploadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
+		3F14A6C325BB1AA000C81BFD /* RealTimeCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeCameraViewController.swift; sourceTree = "<group>"; };
+		3F14A6CE25BB1DB100C81BFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3F1685B02612770E00A3EE56 /* ImagePropertyOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePropertyOrientation.swift; sourceTree = "<group>"; };
+		3F84C3E7260A675D000F23F4 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		3F8BC8A5260E0BA500C19486 /* AnimalDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDescriptionViewController.swift; sourceTree = "<group>"; };
+		3F8C78BB2614B166002BBFF3 /* NoLoginViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoLoginViewCell.swift; sourceTree = "<group>"; };
+		3F8C78BC2614B166002BBFF3 /* NoLoginViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoLoginViewCell.xib; sourceTree = "<group>"; };
+		3F8C78C2261529EA002BBFF3 /* KeyVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyVariables.swift; sourceTree = "<group>"; };
+		3F8C793C2619E69D002BBFF3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		3F8C793D2619E69D002BBFF3 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		3F8C79432619E80F002BBFF3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3F8C79442619E80F002BBFF3 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		3F952C4A2608AB7F00F28D3A /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		3FB9771C2613A960001C0FF8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../../../../../Downloads/SwiftChatApp-master/Messenger/Controllers/Login/LoginViewController.swift"; sourceTree = "<group>"; };
+		3FB977212613A968001C0FF8 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = "../../../../../../Downloads/SwiftChatApp-master/Messenger/Controllers/ProfileViewController.swift"; sourceTree = "<group>"; };
+		3FC1C839260662130076266B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FCD6C34260797AE009ADCC8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3FCD6C392607A276009ADCC8 /* SupportingViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingViewCode.swift; sourceTree = "<group>"; };
+		3FD0D68B260BDB28006384CC /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		44F0B628CCA4DC9B70D5EC6E /* Pods_HP_Adam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HP_Adam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7E9C3107F664923F0F3B3C /* Pods-HP-Adam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP-Adam.release.xcconfig"; path = "Target Support Files/Pods-HP-Adam/Pods-HP-Adam.release.xcconfig"; sourceTree = "<group>"; };
+		725072829B1DE7BAF659AAF4 /* Pods-HP-AdamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP-AdamTests.release.xcconfig"; path = "Target Support Files/Pods-HP-AdamTests/Pods-HP-AdamTests.release.xcconfig"; sourceTree = "<group>"; };
+		76FBEAE44E0A1627810B695A /* Pods-HP-Adam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP-Adam.debug.xcconfig"; path = "Target Support Files/Pods-HP-Adam/Pods-HP-Adam.debug.xcconfig"; sourceTree = "<group>"; };
+		B821825F06243EAF54BF288C /* Pods-HP-Adam-HP-AdamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP-Adam-HP-AdamUITests.debug.xcconfig"; path = "Target Support Files/Pods-HP-Adam-HP-AdamUITests/Pods-HP-Adam-HP-AdamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEFB42801187D3CD8E007C94 /* Pods_HP_Adam_HP_AdamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HP_Adam_HP_AdamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1395780831D450526BAB2E8 /* Pods-HP-AdamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HP-AdamTests.debug.xcconfig"; path = "Target Support Files/Pods-HP-AdamTests/Pods-HP-AdamTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E6B10B6246383CA60501197 /* Pods_HP_Adam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D392E5630B6F248FBCDC606 /* Pods_HP_AdamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1000564F1FC50F714743A9B /* Pods_HP_Adam_HP_AdamUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +141,8 @@
 				3F14A69725BB069400C81BFD /* HP-AdamTests */,
 				3F14A6A225BB069400C81BFD /* HP-AdamUITests */,
 				3F14A67F25BB068900C81BFD /* Products */,
+				3F14A6CD25BB1DB100C81BFD /* Frameworks */,
+				CB97A8DA72EF0B0C6E1E5A9F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +159,12 @@
 		3F14A68025BB068900C81BFD /* HP-Adam */ = {
 			isa = PBXGroup;
 			children = (
+				3FD0D68A260BDB10006384CC /* Model */,
+				3FC1C839260662130076266B /* GoogleService-Info.plist */,
+				3F61DAB625F629D4001BF123 /* Supporting Files */,
+				3F61DAAF25F6296F001BF123 /* ViewControllers Files */,
 				3F14A68125BB068900C81BFD /* AppDelegate.swift */,
 				3F14A68325BB068900C81BFD /* SceneDelegate.swift */,
-				3F14A68525BB068900C81BFD /* ViewController.swift */,
-				3F14A68725BB068900C81BFD /* Main.storyboard */,
-				3F14A68A25BB069400C81BFD /* Assets.xcassets */,
-				3F14A68C25BB069400C81BFD /* LaunchScreen.storyboard */,
-				3F14A68F25BB069400C81BFD /* Info.plist */,
 			);
 			path = "HP-Adam";
 			sourceTree = "<group>";
@@ -128,6 +187,108 @@
 			path = "HP-AdamUITests";
 			sourceTree = "<group>";
 		};
+		3F14A6CD25BB1DB100C81BFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F14A6CE25BB1DB100C81BFD /* AVFoundation.framework */,
+				44F0B628CCA4DC9B70D5EC6E /* Pods_HP_Adam.framework */,
+				EEFB42801187D3CD8E007C94 /* Pods_HP_Adam_HP_AdamUITests.framework */,
+				20E70CAEEDCF7385F8D71002 /* Pods_HP_AdamTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F61DAAF25F6296F001BF123 /* ViewControllers Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F8BC883260DEAFE00C19486 /* Collectionn Cell */,
+				3F8BC882260DEAE300C19486 /* Table Cell */,
+				3FD0D691260CA582006384CC /* Profile View Controllers */,
+				3FD0D690260CA544006384CC /* Camera and Classification ViewControllers */,
+				3F14A6B925BB07B900C81BFD /* MainViewController.swift */,
+				3F14A6B425BB079500C81BFD /* DescriptionViewController.swift */,
+				3F8BC8A5260E0BA500C19486 /* AnimalDescriptionViewController.swift */,
+			);
+			path = "ViewControllers Files";
+			sourceTree = "<group>";
+		};
+		3F61DAB625F629D4001BF123 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F14A68725BB068900C81BFD /* Main.storyboard */,
+				3F14A68A25BB069400C81BFD /* Assets.xcassets */,
+				3F14A68C25BB069400C81BFD /* LaunchScreen.storyboard */,
+				3F14A68F25BB069400C81BFD /* Info.plist */,
+				3FCD6C392607A276009ADCC8 /* SupportingViewCode.swift */,
+				3F952C4A2608AB7F00F28D3A /* DatabaseManager.swift */,
+				3F84C3E7260A675D000F23F4 /* Storage.swift */,
+				3F8C78C2261529EA002BBFF3 /* KeyVariables.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F8BC882260DEAE300C19486 /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C78BB2614B166002BBFF3 /* NoLoginViewCell.swift */,
+				3F8C78BC2614B166002BBFF3 /* NoLoginViewCell.xib */,
+				3F8C79432619E80F002BBFF3 /* TableViewCell.swift */,
+				3F8C79442619E80F002BBFF3 /* TableViewCell.xib */,
+			);
+			path = "Table Cell";
+			sourceTree = "<group>";
+		};
+		3F8BC883260DEAFE00C19486 /* Collectionn Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C793C2619E69D002BBFF3 /* CollectionViewCell.swift */,
+				3F8C793D2619E69D002BBFF3 /* CollectionViewCell.xib */,
+			);
+			path = "Collectionn Cell";
+			sourceTree = "<group>";
+		};
+		3FD0D68A260BDB10006384CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FD0D68B260BDB28006384CC /* ProfileViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FD0D690260CA544006384CC /* Camera and Classification ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F003970262EBDEB00249E64 /* InceptionV3.mlmodel */,
+				3F14A6C325BB1AA000C81BFD /* RealTimeCameraViewController.swift */,
+				3F14A6BE25BB1A8000C81BFD /* UploadImageViewController.swift */,
+				3F1685B02612770E00A3EE56 /* ImagePropertyOrientation.swift */,
+			);
+			path = "Camera and Classification ViewControllers";
+			sourceTree = "<group>";
+		};
+		3FD0D691260CA582006384CC /* Profile View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FB977212613A968001C0FF8 /* ProfileViewController.swift */,
+				3FB9771C2613A960001C0FF8 /* LoginViewController.swift */,
+				3FCD6C34260797AE009ADCC8 /* RegisterViewController.swift */,
+			);
+			path = "Profile View Controllers";
+			sourceTree = "<group>";
+		};
+		CB97A8DA72EF0B0C6E1E5A9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76FBEAE44E0A1627810B695A /* Pods-HP-Adam.debug.xcconfig */,
+				6A7E9C3107F664923F0F3B3C /* Pods-HP-Adam.release.xcconfig */,
+				B821825F06243EAF54BF288C /* Pods-HP-Adam-HP-AdamUITests.debug.xcconfig */,
+				0EB16D66459250DD8AB1E751 /* Pods-HP-Adam-HP-AdamUITests.release.xcconfig */,
+				F1395780831D450526BAB2E8 /* Pods-HP-AdamTests.debug.xcconfig */,
+				725072829B1DE7BAF659AAF4 /* Pods-HP-AdamTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F14A6A825BB069500C81BFD /* Build configuration list for PBXNativeTarget "HP-Adam" */;
 			buildPhases = (
+				634A0FF328FD0C26F7873186 /* [CP] Check Pods Manifest.lock */,
 				3F14A67A25BB068900C81BFD /* Sources */,
 				3F14A67B25BB068900C81BFD /* Frameworks */,
 				3F14A67C25BB068900C81BFD /* Resources */,
+				873C53B5DEDADB2619ABBE7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +315,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F14A6AB25BB069500C81BFD /* Build configuration list for PBXNativeTarget "HP-AdamTests" */;
 			buildPhases = (
+				54AF9CFE2A6AF2CFDA50EE63 /* [CP] Check Pods Manifest.lock */,
 				3F14A69025BB069400C81BFD /* Sources */,
 				3F14A69125BB069400C81BFD /* Frameworks */,
 				3F14A69225BB069400C81BFD /* Resources */,
@@ -170,9 +334,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F14A6AE25BB069500C81BFD /* Build configuration list for PBXNativeTarget "HP-AdamUITests" */;
 			buildPhases = (
+				336F5C2CD5FC3A2D502CC718 /* [CP] Check Pods Manifest.lock */,
 				3F14A69B25BB069400C81BFD /* Sources */,
 				3F14A69C25BB069400C81BFD /* Frameworks */,
 				3F14A69D25BB069400C81BFD /* Resources */,
+				E559B828EAECE0030328A63E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +398,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F14A68E25BB069400C81BFD /* LaunchScreen.storyboard in Resources */,
+				3FC1C83A260662130076266B /* GoogleService-Info.plist in Resources */,
+				3F8C79462619E80F002BBFF3 /* TableViewCell.xib in Resources */,
+				3F8C793F2619E69D002BBFF3 /* CollectionViewCell.xib in Resources */,
+				3F8C78BE2614B166002BBFF3 /* NoLoginViewCell.xib in Resources */,
 				3F14A68B25BB069400C81BFD /* Assets.xcassets in Resources */,
 				3F14A68925BB068900C81BFD /* Main.storyboard in Resources */,
 			);
@@ -253,14 +423,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		336F5C2CD5FC3A2D502CC718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HP-Adam-HP-AdamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54AF9CFE2A6AF2CFDA50EE63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HP-AdamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		634A0FF328FD0C26F7873186 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HP-Adam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		873C53B5DEDADB2619ABBE7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HP-Adam/Pods-HP-Adam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HP-Adam/Pods-HP-Adam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HP-Adam/Pods-HP-Adam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E559B828EAECE0030328A63E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HP-Adam-HP-AdamUITests/Pods-HP-Adam-HP-AdamUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HP-Adam-HP-AdamUITests/Pods-HP-Adam-HP-AdamUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HP-Adam-HP-AdamUITests/Pods-HP-Adam-HP-AdamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F14A67A25BB068900C81BFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F14A68625BB068900C81BFD /* ViewController.swift in Sources */,
+				3FB9771D2613A960001C0FF8 /* LoginViewController.swift in Sources */,
+				3F8C78C3261529EA002BBFF3 /* KeyVariables.swift in Sources */,
+				3F1685B12612770F00A3EE56 /* ImagePropertyOrientation.swift in Sources */,
+				3FCD6C35260797AE009ADCC8 /* RegisterViewController.swift in Sources */,
+				3F952C4B2608AB7F00F28D3A /* DatabaseManager.swift in Sources */,
+				3F14A6C425BB1AA000C81BFD /* RealTimeCameraViewController.swift in Sources */,
+				3FB977222613A968001C0FF8 /* ProfileViewController.swift in Sources */,
+				3F8BC8A6260E0BA500C19486 /* AnimalDescriptionViewController.swift in Sources */,
+				3F8C793E2619E69D002BBFF3 /* CollectionViewCell.swift in Sources */,
+				3FCD6C3A2607A276009ADCC8 /* SupportingViewCode.swift in Sources */,
+				3F8C79452619E80F002BBFF3 /* TableViewCell.swift in Sources */,
+				3F8C78BD2614B166002BBFF3 /* NoLoginViewCell.swift in Sources */,
+				3F14A6B525BB079500C81BFD /* DescriptionViewController.swift in Sources */,
+				3F84C3E8260A675D000F23F4 /* Storage.swift in Sources */,
 				3F14A68225BB068900C81BFD /* AppDelegate.swift in Sources */,
 				3F14A68425BB068900C81BFD /* SceneDelegate.swift in Sources */,
+				3FD0D68C260BDB28006384CC /* ProfileViewModel.swift in Sources */,
+				3F003971262EBDEB00249E64 /* InceptionV3.mlmodel in Sources */,
+				3F14A6BA25BB07B900C81BFD /* MainViewController.swift in Sources */,
+				3F14A6BF25BB1A8100C81BFD /* UploadImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,12 +723,13 @@
 		};
 		3F14A6A925BB069500C81BFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76FBEAE44E0A1627810B695A /* Pods-HP-Adam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU3367P337;
-				INFOPLIST_FILE = "HP-Adam/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HP-Adam/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,18 +737,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Adam.HP-Adam";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3F14A6AA25BB069500C81BFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A7E9C3107F664923F0F3B3C /* Pods-HP-Adam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU3367P337;
-				INFOPLIST_FILE = "HP-Adam/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/HP-Adam/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,12 +757,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Adam.HP-Adam";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		3F14A6AC25BB069500C81BFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1395780831D450526BAB2E8 /* Pods-HP-AdamTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +786,7 @@
 		};
 		3F14A6AD25BB069500C81BFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 725072829B1DE7BAF659AAF4 /* Pods-HP-AdamTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +809,7 @@
 		};
 		3F14A6AF25BB069500C81BFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B821825F06243EAF54BF288C /* Pods-HP-Adam-HP-AdamUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +830,7 @@
 		};
 		3F14A6B025BB069500C81BFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB16D66459250DD8AB1E751 /* Pods-HP-Adam-HP-AdamUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
